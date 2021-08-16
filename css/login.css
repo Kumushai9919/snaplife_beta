@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+.btn{
+  background-color: #AEE6E6;
+}
+
+.input_text{
+  line-height: 2.5;
+  margin: 15px 0px 15px 0px;
+}
+.snaplife-img{
+    width: 50%;
+}
+.form_class{
+  padding: 30% 10% 0 10%;
+}
+.h1-class{
+  padding: 0% 25% 0 25%;
+  text-align: left;
+  color: #ffa45b;
+  font-family: 'Billabong', sans-serif;
+  font-size: 6em;
+
+
+}
+@media (max-width: 760px){
+.snaplife-img{
+    position: static;
+    display: none;
+  }
+  .h1-class{
+    color: #ffa45b;
+    padding: 0;
+    text-align: center;
+    font-family: 'Billabong', sans-serif;
+    font-size: 6rem;
+  }
+  .top_div_class{
+    padding-top: 30%;
+  }
+  .form_class{
+    padding: 10% 5% 0 5%;
+  }
+
+}
